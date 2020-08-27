@@ -1,0 +1,125 @@
+{
+	"id": "9b92bf41-c624-4693-bf31-7373cceaed4e",
+	"name": "cnewtest",
+	"allTests": [],
+	"timestamp": "2019-04-15T03:04:26.651Z",
+	"collection_id": "eaa6a2bf-0657-46c9-85bc-746dba2798ad",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 10,
+	"count": 6,
+	"collection": {
+		"id": "eaa6a2bf-0657-46c9-85bc-746dba2798ad",
+		"name": "cnewtest",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"5959ff12-d3dd-40f8-a1d7-0e3c44804769"
+		],
+		"folders_order": [],
+		"owner": "5230473",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"value": "24.3901e42d090ee02aa52be6bfeffa957e.2592000.1544941181.282335-11420071",
+			"key": "ocr_token",
+			"enabled": true
+		},
+		{
+			"value": "f03a0bb1-85dd-47f1-bc8a-0021644fa6fd",
+			"key": "sessionId",
+			"enabled": true
+		}
+	],
+	"results": [
+		{
+			"name": "ping",
+			"id": "5959ff12-d3dd-40f8-a1d7-0e3c44804769",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				"109",
+				"106",
+				"100",
+				"108",
+				"119",
+				"106"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "106",
+			"totalRequestTime": 648,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 6,
+	"totalFail": 0,
+	"totalTime": 648,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "ping",
+			"id": "5959ff12-d3dd-40f8-a1d7-0e3c44804769",
+			"url": "http://localhost:8000/getip",
+			"time": "106",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}

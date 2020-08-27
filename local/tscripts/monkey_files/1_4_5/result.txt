@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<result>
+<resultinfo result="" installtime="9.991" appstarttime="0.245" starttime="2018-09-29 16:12:57" endtime="" hasloginevent="0" pid=" 9908" error_reason=""  />
+<results>
+<action event="monkey" time="2018-09-29 16:12:57" element="Event" img="shot_161257" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:01" element="Event" img="shot_161301" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:07" element="Event" img="shot_161307" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:10" element="Event" img="shot_161310" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:13" element="Event" img="shot_161313" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:16" element="Event" img="shot_161316" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:26" element="Event" img="shot_161326" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:29" element="Event" img="shot_161329" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:32" element="Event" img="shot_161332" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:35" element="Event" img="shot_161335" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:42" element="Event" img="shot_161342" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:45" element="Event" img="shot_161345" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:13:48" element="Event" img="shot_161348" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:01" element="Event" img="shot_161401" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:10" element="Event" img="shot_161410" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:13" element="Event" img="shot_161413" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:17" element="Event" img="shot_161417" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:20" element="Event" img="shot_161420" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:26" element="Event" img="shot_161426" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:29" element="Event" img="shot_161429" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:33" element="Event" img="shot_161433" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:36" element="Event" img="shot_161436" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:45" element="Event" img="shot_161445" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:49" element="Event" img="shot_161449" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:52" element="Event" img="shot_161452" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:55" element="Event" img="shot_161455" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:14:58" element="Event" img="shot_161458" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:01" element="Event" img="shot_161501" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:05" element="Event" img="shot_161505" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:08" element="Event" img="shot_161508" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:11" element="Event" img="shot_161511" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:14" element="Event" img="shot_161514" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:17" element="Event" img="shot_161517" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:20" element="Event" img="shot_161520" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:24" element="Event" img="shot_161524" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:27" element="Event" img="shot_161527" result="true" value="" position1="" position2="" />
+<action event="monkey" time="2018-09-29 16:15:30" element="Event" img="shot_161530" result="true" value="" position1="" position2="" />
+</results>
+</result>

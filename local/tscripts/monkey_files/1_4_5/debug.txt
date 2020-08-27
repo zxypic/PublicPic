@@ -1,0 +1,291 @@
+[2018-09-29 16:12:38.411 测试日志]FileDeviceName:SMN9500	
+[2018-09-29 16:12:39.366 测试日志]【AutoSense】 version: 3.1.05  installtime: 2018-09-20 12:35:11	
+[2018-09-29 16:12:39.425 测试日志]  16:12:39 up  7:02,  0 users,  load average: 8.04, 8.51, 8.99	
+[2018-09-29 16:12:39.425 测试日志] userId=10358	
+[2018-09-29 16:12:44.531 测试日志]Android|1|4|5|72282|mob|1|com.tencent.qqmusic|/data/local/tmp/QQMusic.apk|V3.2.2|1288932|xxxxxx|20170102212324	
+[2018-09-29 16:12:44.532 测试日志]任务编号:1_4_5--(任务Id_执行Id_执行轮次)	
+[2018-09-29 16:12:44.532 测试日志]脚本名称:72282	
+[2018-09-29 16:12:44.532 测试日志]脚本图片路径:/data/local/tmp/c/pic	
+[2018-09-29 16:12:44.532 测试日志]引擎版本:Bsc3.2.59.092013-Mob3.2.01	
+[2018-09-29 16:12:44.532 测试日志]模块版本:App3.0.1-Lib3.0.8-Dev3.0.1-Api3.0.7-Mon3.0.1	
+[2018-09-29 16:12:44.532 测试日志]脚本版本:1.0.2	
+[2018-09-29 16:12:44.535 测试日志]设备名称:COMMON	设备编号：358520080883866	本机分辨率为(宽*高)：1080*2094	
+[2018-09-29 16:12:44.535 测试日志]本机号码: nil	当前网络模式: WIFI	当前ip: 192.168.169.125	运营商: nil	
+[2018-09-29 16:12:44.535 测试日志]Test Start..............	
+[2018-09-29 16:12:44.535 测试日志]开始信号强度统计...	
+[2018-09-29 16:12:44.536 测试日志]new keyvalue=F	
+[2018-09-29 16:12:46.537 测试日志]首次点击耗时（不包含等待时间）：0.00099999999999989	
+[2018-09-29 16:12:46.537 测试日志]动作耗时：0.00099999999999989	
+[2018-09-29 16:12:46.538 测试日志]devcount=1	
+[2018-09-29 16:12:46.538 测试日志]APP信息，APP_包名：com.tencent.qqmusic   APP_版本：V3.2.2   APP_MD5：20170102212324	
+[2018-09-29 16:12:46.539 测试日志]App测试类型：Monkey测试，安装方式：卸载安装，地址：/data/local/tmp/QQMusic.apk	
+[2018-09-29 16:12:46.580 测试日志]UI自动点击功能开启	
+[2018-09-29 16:12:46.580 测试日志]本地调试app应用包，无需下载。	
+[2018-09-29 16:12:46.580 测试日志]App install start： /data/local/tmp/QQMusic.apk	
+[2018-09-29 16:12:55.904 测试日志]app install return log :
+Success
+ 。	
+[2018-09-29 16:12:56.571 测试日志]App install time :9.991 ret = 0	
+[2018-09-29 16:12:56.571 测试日志]app start pkgname :com.tencent.qqmusic	
+[2018-09-29 16:12:56.703 测试日志]app start pids :u0_a363   9908  1930  1804404 78112          0 0000000000 R com.tencent.qqmusic	
+[2018-09-29 16:12:56.703 测试日志]app start return :1	
+[2018-09-29 16:12:56.816 测试日志]app start pids :u0_a363   9908  1930  1817916 104592          0 0000000000 R com.tencent.qqmusic	
+[2018-09-29 16:12:56.817 测试日志]app start ret = 0；pid = 9908；time = 0.245 	
+[2018-09-29 16:12:56.817 测试日志]App start time :0.245	
+[2018-09-29 16:12:56.817 测试日志]APP AUTO DEPLOYMENT COMPLETE ...	
+[2018-09-29 16:12:56.871 测试日志]开启性能统计: com.tencent.qqmusic	日志文件全路径:/sdcard/RecordPerformanceInfo/perfs_1538208776.csv	
+[2018-09-29 16:12:56.933 测试日志]查看是否有性能日志文件：
+total 0
+	
+[2018-09-29 16:12:57.009 测试日志]App Test,OpenWatchLogcat : com.tencent.qqmusic	
+[2018-09-29 16:12:57.009 测试日志]OpenWatchLogcat开启失败:	attempt to call a nil value	
+[2018-09-29 16:12:57.009 测试日志]App info:<resultinfo result="" installtime="9.991" appstarttime="0.245" starttime="2018-09-29 16:12:57" endtime="" hasloginevent="0" pid=" 9908" error_reason=""  />	
+[2018-09-29 16:12:57.840 测试日志]monkey测试开始，时间：6min	-->	com.tencent.qqmusic	
+[2018-09-29 16:12:57.840 测试日志]monkeyRuner : monkey -p com.tencent.qqmusic --pct-touch 70 --throttle 1000 -v -v -v 360	
+[2018-09-29 16:12:57.877 测试日志] monkey backRuner .... 	
+[2018-09-29 16:12:57.877 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161257.jpg	
+[2018-09-29 16:12:58.322 测试日志]<action event="monkey" time="2018-09-29 16:12:57" element="Event" img="shot_161257" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:12:59.519 测试日志]ps|grep monkey：shell     10368 1     2149740 110572          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:01.119 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:01.119 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161301.jpg	
+[2018-09-29 16:13:01.404 测试日志]<action event="monkey" time="2018-09-29 16:13:01" element="Event" img="shot_161301" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:02.624 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:04.225 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:04.225 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161304.jpg	
+[2018-09-29 16:13:04.609 测试日志]界面无变化(178170	178170)，不记录图片及结果 : shot_161304	
+[2018-09-29 16:13:05.799 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:07.399 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:07.400 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161307.jpg	
+[2018-09-29 16:13:07.796 测试日志]<action event="monkey" time="2018-09-29 16:13:07" element="Event" img="shot_161307" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:09.023 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:10.625 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:10.625 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161310.jpg	
+[2018-09-29 16:13:10.904 测试日志]<action event="monkey" time="2018-09-29 16:13:10" element="Event" img="shot_161310" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:12.124 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:13.725 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:13.726 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161313.jpg	
+[2018-09-29 16:13:14.126 测试日志]<action event="monkey" time="2018-09-29 16:13:13" element="Event" img="shot_161313" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:15.317 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:16.918 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:16.919 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161316.jpg	
+[2018-09-29 16:13:17.260 测试日志]<action event="monkey" time="2018-09-29 16:13:16" element="Event" img="shot_161316" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:18.466 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:20.067 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:20.067 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161320.jpg	
+[2018-09-29 16:13:20.397 测试日志]界面无变化(54795	54795)，不记录图片及结果 : shot_161320	
+[2018-09-29 16:13:21.611 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:23.212 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:23.213 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161323.jpg	
+[2018-09-29 16:13:23.525 测试日志]界面无变化(54795	54795)，不记录图片及结果 : shot_161323	
+[2018-09-29 16:13:24.733 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:26.335 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:26.335 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161326.jpg	
+[2018-09-29 16:13:26.727 测试日志]<action event="monkey" time="2018-09-29 16:13:26" element="Event" img="shot_161326" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:27.937 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:29.537 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:29.538 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161329.jpg	
+[2018-09-29 16:13:29.899 测试日志]<action event="monkey" time="2018-09-29 16:13:29" element="Event" img="shot_161329" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:31.090 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:32.691 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:32.691 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161332.jpg	
+[2018-09-29 16:13:33.083 测试日志]<action event="monkey" time="2018-09-29 16:13:32" element="Event" img="shot_161332" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:34.308 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:35.909 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:35.909 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161335.jpg	
+[2018-09-29 16:13:36.253 测试日志]<action event="monkey" time="2018-09-29 16:13:35" element="Event" img="shot_161335" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:37.472 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:39.072 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:39.072 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161339.jpg	
+[2018-09-29 16:13:39.448 测试日志]界面无变化(73548	73548)，不记录图片及结果 : shot_161339	
+[2018-09-29 16:13:40.647 测试日志]ps|grep monkey：shell     10368 1     2149932 111732          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:42.247 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:42.248 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161342.jpg	
+[2018-09-29 16:13:42.585 测试日志]<action event="monkey" time="2018-09-29 16:13:42" element="Event" img="shot_161342" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:43.797 测试日志]ps|grep monkey：shell     10368 1     2149932 112312          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:45.397 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:45.398 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161345.jpg	
+[2018-09-29 16:13:45.785 测试日志]<action event="monkey" time="2018-09-29 16:13:45" element="Event" img="shot_161345" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:46.984 测试日志]ps|grep monkey：shell     10368 1     2149932 112312          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:48.585 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:48.585 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161348.jpg	
+[2018-09-29 16:13:48.853 测试日志]<action event="monkey" time="2018-09-29 16:13:48" element="Event" img="shot_161348" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:13:50.037 测试日志]ps|grep monkey：shell     10368 1     2149932 112312          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:51.637 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:51.638 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161351.jpg	
+[2018-09-29 16:13:52.032 测试日志]界面无变化(73440	73440)，不记录图片及结果 : shot_161351	
+[2018-09-29 16:13:53.232 测试日志]ps|grep monkey：shell     10368 1     2149932 112312          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:54.833 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:54.834 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161354.jpg	
+[2018-09-29 16:13:55.215 测试日志]界面无变化(73440	73440)，不记录图片及结果 : shot_161354	
+[2018-09-29 16:13:56.398 测试日志]ps|grep monkey：shell     10368 1     2149932 112312          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:13:57.999 测试日志] monkey backRuner .... 	
+[2018-09-29 16:13:57.999 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161357.jpg	
+[2018-09-29 16:13:58.255 测试日志]界面无变化(73440	73440)，不记录图片及结果 : shot_161357	
+[2018-09-29 16:13:59.479 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:01.081 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:01.082 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161401.jpg	
+[2018-09-29 16:14:01.514 测试日志]<action event="monkey" time="2018-09-29 16:14:01" element="Event" img="shot_161401" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:02.752 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:04.352 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:04.352 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161404.jpg	
+[2018-09-29 16:14:04.712 测试日志]界面无变化(73523	73523)，不记录图片及结果 : shot_161404	
+[2018-09-29 16:14:05.911 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:07.512 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:07.512 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161407.jpg	
+[2018-09-29 16:14:07.871 测试日志]界面无变化(73523	73523)，不记录图片及结果 : shot_161407	
+[2018-09-29 16:14:09.065 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:10.666 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:10.666 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161410.jpg	
+[2018-09-29 16:14:11.066 测试日志]<action event="monkey" time="2018-09-29 16:14:10" element="Event" img="shot_161410" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:12.266 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:13.867 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:13.867 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161413.jpg	
+[2018-09-29 16:14:14.278 测试日志]<action event="monkey" time="2018-09-29 16:14:13" element="Event" img="shot_161413" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:15.510 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:17.111 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:17.111 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161417.jpg	
+[2018-09-29 16:14:17.430 测试日志]<action event="monkey" time="2018-09-29 16:14:17" element="Event" img="shot_161417" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:18.650 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:20.251 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:20.251 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161420.jpg	
+[2018-09-29 16:14:20.711 测试日志]<action event="monkey" time="2018-09-29 16:14:20" element="Event" img="shot_161420" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:21.907 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:23.507 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:23.508 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161423.jpg	
+[2018-09-29 16:14:23.911 测试日志]界面无变化(73999	73999)，不记录图片及结果 : shot_161423	
+[2018-09-29 16:14:25.101 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08df9b0 S com.android.commands.monkey	
+[2018-09-29 16:14:26.702 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:26.702 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161426.jpg	
+[2018-09-29 16:14:27.064 测试日志]<action event="monkey" time="2018-09-29 16:14:26" element="Event" img="shot_161426" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:28.253 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:29.853 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:29.854 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161429.jpg	
+[2018-09-29 16:14:30.262 测试日志]<action event="monkey" time="2018-09-29 16:14:29" element="Event" img="shot_161429" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:31.462 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:33.063 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:33.064 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161433.jpg	
+[2018-09-29 16:14:33.476 测试日志]<action event="monkey" time="2018-09-29 16:14:33" element="Event" img="shot_161433" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:34.692 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:36.293 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:36.294 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161436.jpg	
+[2018-09-29 16:14:36.630 测试日志]<action event="monkey" time="2018-09-29 16:14:36" element="Event" img="shot_161436" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:37.840 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:39.441 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:39.442 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161439.jpg	
+[2018-09-29 16:14:39.865 测试日志]界面无变化(73499	73499)，不记录图片及结果 : shot_161439	
+[2018-09-29 16:14:41.097 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:42.698 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:42.698 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161442.jpg	
+[2018-09-29 16:14:43.089 测试日志]界面无变化(73499	73499)，不记录图片及结果 : shot_161442	
+[2018-09-29 16:14:44.317 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:45.918 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:45.919 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161445.jpg	
+[2018-09-29 16:14:46.315 测试日志]<action event="monkey" time="2018-09-29 16:14:45" element="Event" img="shot_161445" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:47.550 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:49.157 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:49.159 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161449.jpg	
+[2018-09-29 16:14:49.546 测试日志]<action event="monkey" time="2018-09-29 16:14:49" element="Event" img="shot_161449" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:50.755 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08df9b0 S com.android.commands.monkey	
+[2018-09-29 16:14:52.356 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:52.356 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161452.jpg	
+[2018-09-29 16:14:52.720 测试日志]<action event="monkey" time="2018-09-29 16:14:52" element="Event" img="shot_161452" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:53.919 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:14:55.520 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:55.521 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161455.jpg	
+[2018-09-29 16:14:55.860 测试日志]<action event="monkey" time="2018-09-29 16:14:55" element="Event" img="shot_161455" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:14:57.065 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08df9b0 R com.android.commands.monkey	
+[2018-09-29 16:14:58.666 测试日志] monkey backRuner .... 	
+[2018-09-29 16:14:58.666 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161458.jpg	
+[2018-09-29 16:14:59.033 测试日志]<action event="monkey" time="2018-09-29 16:14:58" element="Event" img="shot_161458" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:00.236 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:01.836 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:01.836 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161501.jpg	
+[2018-09-29 16:15:02.233 测试日志]<action event="monkey" time="2018-09-29 16:15:01" element="Event" img="shot_161501" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:03.439 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:05.040 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:05.040 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161505.jpg	
+[2018-09-29 16:15:05.406 测试日志]<action event="monkey" time="2018-09-29 16:15:05" element="Event" img="shot_161505" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:06.599 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:08.200 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:08.201 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161508.jpg	
+[2018-09-29 16:15:08.523 测试日志]<action event="monkey" time="2018-09-29 16:15:08" element="Event" img="shot_161508" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:09.721 测试日志]ps|grep monkey：shell     10368 1     2149932 112232          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:11.322 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:11.323 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161511.jpg	
+[2018-09-29 16:15:11.677 测试日志]<action event="monkey" time="2018-09-29 16:15:11" element="Event" img="shot_161511" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:12.885 测试日志]ps|grep monkey：shell     10368 1     2149932 112492          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:14.486 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:14.486 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161514.jpg	
+[2018-09-29 16:15:14.907 测试日志]<action event="monkey" time="2018-09-29 16:15:14" element="Event" img="shot_161514" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:16.106 测试日志]ps|grep monkey：shell     10368 1     2149932 112492          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:17.709 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:17.709 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161517.jpg	
+[2018-09-29 16:15:18.103 测试日志]<action event="monkey" time="2018-09-29 16:15:17" element="Event" img="shot_161517" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:19.298 测试日志]ps|grep monkey：shell     10368 1     2149932 112492          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:20.899 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:20.899 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161520.jpg	
+[2018-09-29 16:15:21.304 测试日志]<action event="monkey" time="2018-09-29 16:15:20" element="Event" img="shot_161520" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:22.527 测试日志]ps|grep monkey：shell     10368 1     2149932 112492          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:24.128 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:24.128 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161524.jpg	
+[2018-09-29 16:15:24.562 测试日志]<action event="monkey" time="2018-09-29 16:15:24" element="Event" img="shot_161524" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:25.752 测试日志]ps|grep monkey：shell     10368 1     2149932 112492          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:27.352 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:27.352 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161527.jpg	
+[2018-09-29 16:15:27.749 测试日志]<action event="monkey" time="2018-09-29 16:15:27" element="Event" img="shot_161527" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:28.940 测试日志]ps|grep monkey：shell     10368 1     2149932 112492          0 7fb08823b0 S com.android.commands.monkey	
+[2018-09-29 16:15:30.540 测试日志] monkey backRuner .... 	
+[2018-09-29 16:15:30.541 测试日志]截取凭证图:/data/local/tmp/c/result/1_4_5/images/shot_161530.jpg	
+[2018-09-29 16:15:30.908 测试日志]<action event="monkey" time="2018-09-29 16:15:30" element="Event" img="shot_161530" result="true" value="" position1="" position2="" />	
+[2018-09-29 16:15:32.113 测试日志]ps monkey pid not found ！	
+[2018-09-29 16:15:32.114 测试日志]App Test Complete !	
+[2018-09-29 16:15:32.114 测试日志]App Test,CloseWatchLogcat : com.tencent.qqmusic	
+[2018-09-29 16:15:32.114 测试日志]L_CloseWatchLogcat关闭失败:	attempt to call a nil value	
+[2018-09-29 16:15:33.104 测试日志]查看/sdcard/目录logcat文件列表：
+-rw-rw----  1 root sdcard_rw  2459697 2018-09-29 16:15 watchlog.log
+-rw-rw----  1 root sdcard_rw  2363785 2018-09-29 16:15 watchlog.txt
+	
+[2018-09-29 16:15:33.104 测试日志]script execute ok	
+[2018-09-29 16:15:33.104 测试日志]性能方法 包名参数为空！	
+[2018-09-29 16:15:33.251 测试日志]脚本结束初始化...	
+[2018-09-29 16:15:34.984 测试日志]new keyvalue=F	
+[2018-09-29 16:15:36.984 测试日志]首次点击耗时（不包含等待时间）：0.00099999999999989	
+[2018-09-29 16:15:36.984 测试日志]动作耗时：0.00099999999999989	
+[2018-09-29 16:15:36.985 测试日志]脚本运行时间差:172.449	
+[2018-09-29 16:15:37.054 测试日志]monkey测试结果未生成：
+total 24
+-rw-rw---- 1 root sdcard_rw    0 2018-09-29 16:12 bootstrap_error_log.txt
+-rw-rw---- 1 root sdcard_rw 9118 2018-09-29 16:14 bootstrap_log.txt
+	
+[2018-09-29 16:15:37.054 测试日志]检查遍历测试结果目录：	
+[2018-09-29 16:15:37.056 测试日志]mob_头信息：  hzys	SMN9500	358520080883866	0,0	192.168.169.125	nil	1|4	Z.X.Y	UNKNOWN	NA	LAN	WIFI	1.0.2	
+[2018-09-29 16:15:37.056 测试日志]JRresult_HaderPath  /data/user/0/com.autosense/files/result/1/4/5/result.txt	
+[2018-09-29 16:15:37.057 测试日志]复制result.txt  /data/local/tmp/c/result/1_4_5/result.txt >>>>> /data/user/0/com.autosense/files/result/1/4/5/FILE/result.txt	
+[2018-09-29 16:15:37.104 测试日志]ls -l:	-rw-rw-rw- 1 shell shell 5284 2018-09-29 16:15 /data/local/tmp/c/result/1_4_5/result.txt	
+[2018-09-29 16:15:37.104 测试日志]copy >>> /data/user/0/com.autosense/files/result/1/4/5/FILE/result.txt	
+[2018-09-29 16:15:37.104 测试日志]复制debug.txt  /data/local/tmp/c/result/1_4_5/debug.txt >>>>> /data/user/0/com.autosense/files/result/1/4/5/FILE/debug.txt	
+[2018-09-29 16:15:37.159 测试日志]ls -l:	-rw-rw-rw- 1 shell shell 27312 2018-09-29 16:15 /data/local/tmp/c/result/1_4_5/debug.txt	
+[2018-09-29 16:15:37.159 测试日志]copy >>> /data/user/0/com.autosense/files/result/1/4/5/FILE/debug.txt	
+[2018-09-29 16:15:37.160 测试日志]文件（crashlog.txt）未发现；目录：/sdcard/	
+[2018-09-29 16:15:37.160 测试日志]文件（anrlog.txt）未发现；目录：/sdcard/	
+[2018-09-29 16:15:37.160 测试日志]复制bootstrap_log.txt  /mnt/sdcard/mobileSense/bootstrap_log.txt >>>>> /data/user/0/com.autosense/files/result/1/4/5/FILE/bootstrap_log.txt	
+[2018-09-29 16:15:37.208 测试日志]ls -l:	-rw-rw---- 1 root sdcard_rw 9118 2018-09-29 16:14 /mnt/sdcard/mobileSense/bootstrap_log.txt	
+[2018-09-29 16:15:37.208 测试日志]copy >>> /data/user/0/com.autosense/files/result/1/4/5/FILE/bootstrap_log.txt	
+[2018-09-29 16:15:37.209 测试日志]文件（signal.txt）未发现；目录：/data/local/tmp/c/result/1_4_5/	
+[2018-09-29 16:15:37.209 测试日志]保存步骤图凭证文件	
+[2018-09-29 16:15:37.209 测试日志]imgPath:/mnt/sdcard/mobileSense/images/	
+[2018-09-29 16:15:37.261 测试日志]Imags: ls: /mnt/sdcard/mobileSense/images/: No such file or directory	
+[2018-09-29 16:15:37.261 测试日志]文件（ls: /mnt/sdcard/mobileSense/images/: No such file or directory）未发现；目录：/mnt/sdcard/mobileSense/images/	
+[2018-09-29 16:15:37.349 测试日志]ls -l:	-rw-rw---- 1 root sdcard_rw 2363785 2018-09-29 16:15 /sdcard/watchlog.txt	
+[2018-09-29 16:15:37.350 测试日志]copy >>> /data/user/0/com.autosense/files/result/1/4/5/FILE/log.txt	
+[2018-09-29 16:15:37.435 测试日志]查看上传目录文件列表：
+total 4736
+-rw-rw-rw- 1 shell shell    9118 2018-09-29 16:15 bootstrap_log.txt
+-rw-rw-rw- 1 shell shell   27312 2018-09-29 16:15 debug.txt
+drwxrwxrwx 2 shell shell    4096 2018-09-29 13:43 images
+-rw-rw-rw- 1 shell shell 2363785 2018-09-29 16:15 log.txt
+drwxrwxrwx 2 shell shell    4096 2018-09-29 13:43 perfs
+-rw-rw-rw- 1 shell shell    5284 2018-09-29 16:15 result.txt
+	
+[2018-09-29 16:15:37.435 测试日志]测试结果保存完成...	
+[2018-09-29 16:15:37.435 测试日志]本地调试脚本执行完成...	

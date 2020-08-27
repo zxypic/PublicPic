@@ -1,0 +1,7 @@
+status_code=1
+std_err=  File "./scripts/107870/script.py", line 13
+    print("execute end")
+                       ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+std_out=

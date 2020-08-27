@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "eaa6a2bf-0657-46c9-85bc-746dba2798ad",
+		"name": "cnewtest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "27034b54-62c8-4818-ac13-63126c2eb35b",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/getip",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"getip"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ping",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "11810cbd-ae89-419d-93f0-c459982e52fb",
+						"exec": [
+							"pm.test(\"Response time is less than 4300ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(4300);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/ping/192.2.1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"ping",
+						"192.2.1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
